@@ -4,7 +4,7 @@ Prebuilt Kotlin umbrella frameworks for using the
 [Scandit KMP modules](https://docs.scandit.com) in an iOS app, with the native
 Scandit frameworks resolved transitively from
 [datacapture-spm](https://github.com/Scandit/datacapture-spm) (pinned to
-`8.6.0`).
+`8.6.1`).
 
 ## Which integration path?
 
@@ -16,11 +16,11 @@ Scandit frameworks resolved transitively from
   frameworks in one app cannot share types. Instead add the native
   [datacapture-spm](https://github.com/Scandit/datacapture-spm) package to
   your iOS app, pinned to the exact native version matching your Maven
-  version (`8.6.0` for this release).
+  version (`8.6.1` for this release).
 
 ## Usage
 
-1. Xcode → File → Add Package Dependencies → this repository, exact version `8.6.0`.
+1. Xcode → File → Add Package Dependencies → this repository, exact version `8.6.1`.
 2. Add **exactly one** `ScanditKmp*` product to your app target. Kotlin/Native
    frameworks are isolated worlds — two Kotlin frameworks in one app cannot
    share types, so pick the variant covering every Scandit KMP module you use.
